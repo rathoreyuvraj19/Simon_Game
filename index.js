@@ -31,7 +31,7 @@ function check(currentLevel) {
   } else {
     playSound("wrong");
     $("body").addClass("game-over");
-    $("h1").text("Game Over, Press Any Key to Restart");
+    $("h1").text("Game Over, Press 'W' to Restart");
 
     setTimeout(function () {
       $("body").removeClass("game-over");
